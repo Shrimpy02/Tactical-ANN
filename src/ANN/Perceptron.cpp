@@ -14,7 +14,6 @@ Perceptron::Perceptron(std::vector<LogicSet> _logicTrainingSets)
 	InitializeRandomWeightsAndBias();
 }
 
-
 void Perceptron::Train(bool _shouldPrint)
 {
 	uint8_t it = 0;

@@ -1,13 +1,7 @@
 // Perceptron.h - Contains declarations of perceptron functions
 #pragma once
 
-#define PERCEPTRON_API __declspec(dllexport)
-//#ifdef PERCEPTRON_EXPORTS
-//#define PERCEPTRON_API __declspec(dllexport)
-//#else
-//#define PERCEPTRON_API __declspec(dllimport)
-//#endif
-
+#include <ANN/Defines.h>
 #include <utility>
 #include <vector>
 #include <string>

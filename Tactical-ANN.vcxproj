@@ -141,12 +141,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\ANN\ActivationFunction.h" />
+    <ClInclude Include="src\ANN\Defines.h" />
+    <ClInclude Include="src\ANN\NetworkLayer.h" />
+    <ClInclude Include="src\ANN\NeuralNetwork.h" />
+    <ClInclude Include="src\ANN\Neuron.h" />
     <ClInclude Include="src\ANN\Perceptron.h" />
     <ClInclude Include="src\framework.h" />
     <ClInclude Include="src\pch.h" />
     <ClInclude Include="src\ANN\TacticalANN.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\ANN\NetworkLayer.cpp" />
+    <ClCompile Include="src\ANN\NeuralNetwork.cpp" />
+    <ClCompile Include="src\ANN\Neuron.cpp" />
     <ClCompile Include="src\ANN\Perceptron.cpp" />
     <ClCompile Include="src\dllmain.cpp" />
     <ClCompile Include="src\pch.cpp">
