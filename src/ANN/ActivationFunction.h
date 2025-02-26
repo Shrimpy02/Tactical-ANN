@@ -1,10 +1,12 @@
 #pragma once
 
 // Includes
-#include <vector>
+#include "Defines.h"
 #include <complex>
+#include <memory>
+#include <utility>
 
-enum class ActivationFunctionType
+enum ActivationFunctionType
 {
 	AFT_Identity,
 	AFT_BinaryStep,
@@ -14,12 +16,11 @@ enum class ActivationFunctionType
 	AFT_LeakyRectified
 };
 
-
 class ActivationFunction
 {
 public:
 
-	static double ExecuteActivationFunction(double _calculatedOutput, ActivationFunctionType _aft)
+	ANN_API static double ExecuteActivationFunction(double _calculatedOutput, ActivationFunctionType _aft)
 	{
 		switch (_aft)
 		{
@@ -36,9 +37,12 @@ public:
 		case ActivationFunctionType::AFT_LeakyRectified:
 			return LeakyRectified(_calculatedOutput);
 		}
+
+		throw std::invalid_argument("No Activation function mach");
+		return -1;
 	}
 
-	static double ExecuteActivationFunctionDerivative(double _calculatedOutput, ActivationFunctionType _aft)
+	ANN_API static double ExecuteActivationFunctionDerivative(double _calculatedOutput, ActivationFunctionType _aft)
 	{
 		switch (_aft)
 		{
@@ -55,63 +59,66 @@ public:
 		case ActivationFunctionType::AFT_LeakyRectified:
 			return LeakyRectifiedDeriv(_calculatedOutput);
 		}
+
+		throw std::invalid_argument("No derivative activation function mach");
+		return -1;
 	}
 
 private:
 
-	static double Identity(double _calculatedOutput)
+	ANN_API static double Identity(double _calculatedOutput)
 	{
 		return _calculatedOutput;
 	}
-	static double IdentityDeriv()
+	ANN_API static double IdentityDeriv()
 	{
 		return 1;
 	}
 
-	static double BinaryStep(double _calculatedOutput)
+	ANN_API static double BinaryStep(double _calculatedOutput)
 	{
 		return _calculatedOutput >= 0 ? 1 : 0;
 	}
-	static double BinaryStepDeriv()
+	ANN_API static double BinaryStepDeriv()
 	{
 		return 0;
 	}
 
-	static double Sigmoid(double _calculatedOutput)
+	ANN_API static double Sigmoid(double _calculatedOutput)
 	{
 		return 1.0 / (1.0 + std::exp(-_calculatedOutput));
 	}
-	static double SigmoidDeriv(double _calculatedOutput)
+	ANN_API static double SigmoidDeriv(double _calculatedOutput)
 	{
 		double sig = Sigmoid(_calculatedOutput);
 		return sig * (1 - sig);
 	}
 
-	static double Hyperbolic(double _calculatedOutput)
+	ANN_API static double Hyperbolic(double _calculatedOutput)
 	{
 		return tanh(_calculatedOutput);
 	}
-	static double HyperbolicDeriv(double _calculatedOutput)
+	ANN_API static double HyperbolicDeriv(double _calculatedOutput)
 	{
 		double Hyper = Hyperbolic(_calculatedOutput);
 		return 1 - std::pow(Hyper, 2);
 
 	}
 
-	static double RectifiedLinear(double _calculatedOutput)
+	ANN_API static double RectifiedLinear(double _calculatedOutput)
 	{
 		return _calculatedOutput > 0 ? _calculatedOutput : 0;
 	}
-	static double RectifiedLinearDeriv(double _calculatedOutput)
+	ANN_API static double RectifiedLinearDeriv(double _calculatedOutput)
 	{
 		return _calculatedOutput > 0 ? 1 : 0;
 	}
 
-	static double LeakyRectified(double _calculatedOutput)
+	ANN_API static double LeakyRectified(double _calculatedOutput)
 	{
 		return _calculatedOutput <= 0 ? 0.01 * _calculatedOutput : _calculatedOutput;
 	}
-	static double LeakyRectifiedDeriv(double _calculatedOutput)
+	ANN_API static double LeakyRectifiedDeriv(double _calculatedOutput)
 	{
 		return _calculatedOutput < 0 ? 0.01 : 1;
 	}

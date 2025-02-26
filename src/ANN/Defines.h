@@ -1,8 +1,8 @@
 #pragma once
 
-#define PERCEPTRON_API __declspec(dllexport)
-//#ifdef PERCEPTRON_EXPORTS
-//#define PERCEPTRON_API __declspec(dllexport)
+#define ANN_API __declspec(dllexport)
+//#ifdef ANN_EXPORTS
+//#define ANN_API __declspec(dllexport)
 //#else
-//#define PERCEPTRON_API __declspec(dllimport)
+//#define ANN_API __declspec(dllimport)
 //#endif

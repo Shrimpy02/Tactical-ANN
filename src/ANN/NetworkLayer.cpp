@@ -1,40 +1,96 @@
 
 // Includes
 #include "pch.h"
-#include <ANN/NetworkLayer.h>
+#include "NetworkLayer.h"
+#include <random>
 
 // -------------------- Public --------------------
 
-NetworkLayer::NetworkLayer(const int& _numNeurons, const int& _numInputsPerNeuron)
+NetworkLayer::NetworkLayer(const int& _numNeurons, ActivationFunctionType _aft, const int& _numExpectedInputs)
+	:	mLayerActivationFunctionType(_aft)
 {
 	for(int i = 0; i < _numNeurons; i++)
 	{
-		mLayerNeurons.push_back(std::make_shared<Neuron>(_numInputsPerNeuron));
+		std::vector<double> randomWeights(_numExpectedInputs);
+		for (int j = 0; j < _numExpectedInputs; j++)
+			randomWeights[j] = GetRandomDouble(-0.5, 0.5);
+
+		double randomBias = GetRandomDouble(-0.5, 0.5);
+
+		mLayerNeurons.push_back(std::make_shared<Neuron>(randomBias, randomWeights));
 	}
 }
 
-std::vector<double> NetworkLayer::CalculateLayerOutput(const std::vector<double>& _inputs, ActivationFunctionType _aft)
+std::vector<double> NetworkLayer::CalculateLayerOutput(const std::vector<double>& _inputs)
 {
-	mLayerOutputs.clear();
+	if (mLayerOutputs.size() != mLayerNeurons.size())
+		mLayerOutputs.resize(mLayerNeurons.size());
 
-	for(std::shared_ptr<Neuron> neuron : mLayerNeurons)
-		mLayerOutputs.push_back(neuron->CalculateOutput(_inputs, _aft));
+	for (size_t i = 0; i < mLayerNeurons.size(); i++)
+		mLayerOutputs[i] = mLayerNeurons[i]->CalculateOutput(_inputs, mLayerActivationFunctionType);
 
 	return mLayerOutputs;
 }
 
-void NetworkLayer::ComputeErrorGradient(ActivationFunctionType _aft)
+void NetworkLayer::ComputeErrorGradientLayer(const NetworkLayer& _nextLayer)
 {
-	for (size_t i = 0; i < mLayerNeurons.size(); i++)
+	for (int i = 0; i < static_cast<int>(mLayerNeurons.size()); i++)
 	{
-		mLayerNeurons[i]->CalculateErrorGradient(mLayerOutputs[i], _aft);
+		double sumWeightedGradients = 0.0;
+
+		// Sum the error gradient contributions from the next layer
+		for (const std::shared_ptr<Neuron>& neuron: _nextLayer.GetNeurons())
+			sumWeightedGradients += neuron->GetWeight(i) * neuron->GetErrorGradient();
+
+		// Apply activation function derivative on neuron itself
+		mLayerNeurons[i]->ComputeErrorGradient(sumWeightedGradients, mLayerActivationFunctionType);
 	}
 }
 
-void NetworkLayer::UpdateWeights(const double& _learningRate, const std::vector<double>& inputs)
+void NetworkLayer::ComputeErrorGradientLayer(const std::vector<double>& _expectedOutput)
 {
+	for (size_t i = 0; i < mLayerNeurons.size(); i++)
+		mLayerNeurons[i]->ComputeErrorGradient(_expectedOutput[i] - mLayerNeurons[i]->GetOutput(), mLayerActivationFunctionType);
+}
+
+void NetworkLayer::UpdateLayerWeights(const double& _learningRate, const std::vector<double>& _previousOutput)
+{
+	for (std::shared_ptr<Neuron>& neuron : mLayerNeurons)
+		neuron->UpdateWeights(_learningRate, _previousOutput);
+}
+
+std::vector<double> NetworkLayer::GetLayerErrorGradient()
+{
+	std::vector<double> totalErrorGradient;
+
 	for (std::shared_ptr<Neuron> neuron : mLayerNeurons)
-		neuron->UpdateWeights(_learningRate, inputs);
+		totalErrorGradient.push_back(neuron->GetErrorGradient());
+
+	return totalErrorGradient;
+}
+
+std::vector<double> NetworkLayer::GetOutput()
+{
+	std::vector<double> outputs;
+
+	for (const std::shared_ptr<Neuron>& neuron : mLayerNeurons)
+		outputs.push_back(neuron->GetOutput());
+
+	return outputs;
+}
+
+const std::vector<std::shared_ptr<Neuron>>& NetworkLayer::GetNeurons() const
+{
+	return mLayerNeurons;
 }
 
 // -------------------- Private --------------------
+
+double NetworkLayer::GetRandomDouble(const double& _lowerBound, const double& _upperBound)
+{
+	std::random_device randomDevice;
+	std::mt19937 gen(randomDevice());
+	std::uniform_real_distribution<> distribution(_lowerBound, _upperBound);
+
+	return distribution(gen);
+}
