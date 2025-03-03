@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NetworkLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NeuralNetwork.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NeuralNetwork\\NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\Neuron.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\TacticalANN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\TacticalANN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\TacticalANN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\TacticalANN.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\ActivationFunction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\ActivationFunction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NeuralNetwork\\Neuron.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFF2AE5-615E-4C06-8272-F454C049BA38}|Tactical-ANN.vcxproj|solutionrelative:src\\ANN\\NeuralNetwork\\NetworkLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,113 +57,135 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 216,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 241,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "TacticalANN.h",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\TacticalANN.h",
-              "RelativeDocumentMoniker": "src\\ANN\\TacticalANN.h",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\TacticalANN.h",
-              "RelativeToolTip": "src\\ANN\\TacticalANN.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\TacticalANN.h",
+              "RelativeDocumentMoniker": "src\\TacticalANN.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\TacticalANN.h",
+              "RelativeToolTip": "src\\TacticalANN.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-26T12:24:59.753Z",
+              "WhenOpened": "2025-03-03T13:20:26.745Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActivationFunction.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\ActivationFunction.h",
+              "RelativeDocumentMoniker": "src\\ANN\\ActivationFunction.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\ActivationFunction.h",
+              "RelativeToolTip": "src\\ANN\\ActivationFunction.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-03T13:20:29.44Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Defines.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Defines.h",
+              "RelativeDocumentMoniker": "src\\ANN\\Defines.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Defines.h",
+              "RelativeToolTip": "src\\ANN\\Defines.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-03T13:20:30.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DQN-NeuralNetwork.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-03T13:22:31.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DQN-NetworkLayer.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-03T13:22:30.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DQN-Neuron.h",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-03T13:22:32.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "NeuralNetwork.h",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.h",
-              "RelativeDocumentMoniker": "src\\ANN\\NeuralNetwork.h",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.h",
-              "RelativeToolTip": "src\\ANN\\NeuralNetwork.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NeuralNetwork.h",
+              "RelativeDocumentMoniker": "src\\ANN\\NeuralNetwork\\NeuralNetwork.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NeuralNetwork.h",
+              "RelativeToolTip": "src\\ANN\\NeuralNetwork\\NeuralNetwork.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T13:03:24.13Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-03T13:47:13.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "NetworkLayer.h",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.h",
-              "RelativeDocumentMoniker": "src\\ANN\\NetworkLayer.h",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.h",
-              "RelativeToolTip": "src\\ANN\\NetworkLayer.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NetworkLayer.h",
+              "RelativeDocumentMoniker": "src\\ANN\\NeuralNetwork\\NetworkLayer.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\NetworkLayer.h",
+              "RelativeToolTip": "src\\ANN\\NeuralNetwork\\NetworkLayer.h",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T13:38:04.697Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-03T13:47:12.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Neuron.h",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.h",
-              "RelativeDocumentMoniker": "src\\ANN\\Neuron.h",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.h",
-              "RelativeToolTip": "src\\ANN\\Neuron.h",
-              "ViewState": "AgIAABAAAAAAAAAAAAAIwDUAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\Neuron.h",
+              "RelativeDocumentMoniker": "src\\ANN\\NeuralNetwork\\Neuron.h",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork\\Neuron.h",
+              "RelativeToolTip": "src\\ANN\\NeuralNetwork\\Neuron.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-24T10:33:55.033Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-03-03T13:47:13.91Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 178,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 191,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NeuralNetwork.cpp",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.cpp",
-              "RelativeDocumentMoniker": "src\\ANN\\NeuralNetwork.cpp",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NeuralNetwork.cpp",
-              "RelativeToolTip": "src\\ANN\\NeuralNetwork.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-21T13:03:02.297Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NetworkLayer.cpp",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.cpp",
-              "RelativeDocumentMoniker": "src\\ANN\\NetworkLayer.cpp",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\NetworkLayer.cpp",
-              "RelativeToolTip": "src\\ANN\\NetworkLayer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T10:33:18.743Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Neuron.cpp",
-              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.cpp",
-              "RelativeDocumentMoniker": "src\\ANN\\Neuron.cpp",
-              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\Neuron.cpp",
-              "RelativeToolTip": "src\\ANN\\Neuron.cpp",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowDgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-24T10:33:39.703Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
@@ -155,6 +197,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DQN-NeuralNetwork.cpp",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-NeuralNetwork.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-03T13:22:31.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DQN-NetworkLayer.cpp",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-NetworkLayer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-03T13:51:57.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DQN-Neuron.cpp",
+              "DocumentMoniker": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp",
+              "RelativeDocumentMoniker": "src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp",
+              "ToolTip": "C:\\SebsStuff\\Projects\\Sebs_ANN\\Sebs_ANN\\Tactical-ANN\\src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp",
+              "RelativeToolTip": "src\\ANN\\DQN-NeuralNetwork\\DQN-Neuron.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-03T13:51:59.109Z",
+              "EditorCaption": ""
             }
           ]
         }

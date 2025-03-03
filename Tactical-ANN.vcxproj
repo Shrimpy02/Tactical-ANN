@@ -143,19 +143,25 @@
   <ItemGroup>
     <ClInclude Include="src\ANN\ActivationFunction.h" />
     <ClInclude Include="src\ANN\Defines.h" />
-    <ClInclude Include="src\ANN\NetworkLayer.h" />
-    <ClInclude Include="src\ANN\NeuralNetwork.h" />
-    <ClInclude Include="src\ANN\Neuron.h" />
-    <ClInclude Include="src\ANN\Perceptron.h" />
+    <ClInclude Include="src\ANN\NeuralNetwork\NeuralNetwork.h" />
+    <ClInclude Include="src\ANN\NeuralNetwork\NetworkLayer.h" />
+    <ClInclude Include="src\ANN\NeuralNetwork\Neuron.h" />
+    <ClInclude Include="src\ANN\Perceptron\Perceptron.h" />
+    <ClInclude Include="src\ANN\DQN-NeuralNetwork\DQN-NeuralNetwork.h" />
+    <ClInclude Include="src\ANN\DQN-NeuralNetwork\DQN-NetworkLayer.h" />
+    <ClInclude Include="src\ANN\DQN-NeuralNetwork\DQN-Neuron.h" />
     <ClInclude Include="src\framework.h" />
     <ClInclude Include="src\pch.h" />
-    <ClInclude Include="src\ANN\TacticalANN.h" />
+    <ClInclude Include="src\TacticalANN.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ANN\NetworkLayer.cpp" />
-    <ClCompile Include="src\ANN\NeuralNetwork.cpp" />
-    <ClCompile Include="src\ANN\Neuron.cpp" />
-    <ClCompile Include="src\ANN\Perceptron.cpp" />
+    <ClCompile Include="src\ANN\NeuralNetwork\NeuralNetwork.cpp" />
+    <ClCompile Include="src\ANN\NeuralNetwork\NetworkLayer.cpp" />
+    <ClCompile Include="src\ANN\NeuralNetwork\Neuron.cpp" />
+    <ClCompile Include="src\ANN\Perceptron\Perceptron.cpp" />
+    <ClCompile Include="src\ANN\DQN-NeuralNetwork\DQN-NeuralNetwork.cpp" />
+    <ClCompile Include="src\ANN\DQN-NeuralNetwork\DQN-NetworkLayer.cpp" />
+    <ClCompile Include="src\ANN\DQN-NeuralNetwork\DQN-Neuron.cpp" />
     <ClCompile Include="src\dllmain.cpp" />
     <ClCompile Include="src\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
