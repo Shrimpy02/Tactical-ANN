@@ -84,8 +84,6 @@ const std::vector<std::shared_ptr<DQN_Neuron>>& DQN_NetworkLayer::GetNeurons() c
 	return mLayerNeurons;
 }
 
-// -------------------- Private --------------------
-
 double DQN_NetworkLayer::GetRandomDouble(const double& _lowerBound, const double& _upperBound)
 {
 	std::random_device randomDevice;
@@ -94,3 +92,6 @@ double DQN_NetworkLayer::GetRandomDouble(const double& _lowerBound, const double
 
 	return distribution(gen);
 }
+
+
+// -------------------- Private --------------------
